@@ -32,8 +32,6 @@ header {
     animation: fadeIn 1s ease-in;
 }
 
-#about {}
-
 /* Main Stylings */
 
 #top-button {
@@ -48,7 +46,7 @@ header {
 }
 
 header {
-    padding: 20px;
+    padding: 10px;
 }
 
 nav {
@@ -133,8 +131,6 @@ nav {
     }
 }
 
-
-
 .each-service {
     text-align: center;
     width: 150px;
@@ -155,9 +151,12 @@ footer p,
     margin: 0;
 }
 
-iframe {
-    width: 100%;
+footer {
+    li {
+        list-style-type: none;
+    }
 }
+
 
 /* Mobile Styles */
 
