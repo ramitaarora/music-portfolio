@@ -1,24 +1,27 @@
 :root {
-    --ida-blue: #025a99;
-    --ida-blue-darker: #003d69;
-    --ida-red: #ea2024;
+    --primary: #0f7b76;
+    --secondary: #08c3b9;
 }
 
 a {
     text-decoration: none !important;
-    color: var(--ida-blue) !important;
+    color: var(--primary) !important;
 }
 
 a:hover {
-    color: var(--ida-blue-darker) !important;
+    color: var(--secondary) !important;
 }
 
 h1, h2, h3 {
-    font-family: sans-serif;
+    font-family: Sacramento, sans-serif;
 }
 
-p {
-    font-family: sans-serif
+h1, h2 {
+    font-size: 40px !important;
+}
+
+p, a {
+    font-family: "Playfair Display", sans-serif
 }
 
 /* Animations */
@@ -40,6 +43,13 @@ header {
     animation: fadeIn 1s ease-in;
 }
 
+.each-description:hover,
+#services img:hover,
+li img:hover {
+    cursor: pointer;
+    position: relative;
+    top: -5px;
+}
 /* Main Stylings */
 
 #top-button {
@@ -49,12 +59,12 @@ header {
     padding: 40px;
 
     svg:hover {
-        fill: var(--ida-red);
+        fill: var(--secondary);
     }
 }
 
-header {
-    padding: 10px;
+header, footer {
+    padding: 10px 20px;
 }
 
 nav {
@@ -68,11 +78,11 @@ nav {
     }
 
     a {
-        color: var(--ida-blue) !important;
+        color: var(--primary) !important;
     }
 
     a:hover {
-        color: var(--ida-blue-darker) !important;
+        color: var(--secondary) !important;
         font-weight: bold;
     }
 }
@@ -106,11 +116,6 @@ nav {
     .each-description {
         width: 25%;
     }
-
-    .each-description:hover {
-        position: relative;
-        top: -5px;
-}
 }
 
 .each-service {
@@ -129,13 +134,13 @@ nav {
     background-color: rgb(245, 245, 245);
 }
 
-footer p {
-    margin: 0;
-}
-
 footer {
     li {
         list-style-type: none;
+    }
+
+    p {
+        margin: 0;
     }
 }
 
