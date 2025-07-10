@@ -155,6 +155,10 @@ nav {
 
     .each-description {
         width: 25%;
+
+        iframe {
+            width: 100%;
+        }
     }
 }
 
