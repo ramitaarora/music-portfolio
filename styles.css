@@ -56,7 +56,7 @@ li img:hover {
     position: fixed;
     bottom: 0;
     right: 0;
-    padding: 40px;
+    padding: 20px;
 
     svg:hover {
         fill: var(--secondary);
@@ -157,10 +157,6 @@ nav {
 footer {
     li {
         list-style-type: none;
-    }
-
-    p {
-        margin: 0;
     }
 }
 
