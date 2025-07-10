@@ -28,10 +28,10 @@
 
 <body id="top">
     <header class="d-flex w-full justify-content-between align-items-center">
-        <a href="#top"><img src="./images/logo.png" alt="ramita-music-logo" height="70" title="Ramita Logo"
-                aria-label="Ramita Logo"></a>
+        <a href="#top"><img src="./images/logo.png" alt="ramita-music-logo" height="60" title="Ramita Arora Music Logo"
+                aria-label="Ramita Arora Music Logo"></a>
         <nav class="d-md-w-75">
-            <ul class="d-flex d-md-justify-content-end align-items-center w-full">
+            <ul class="main-nav d-flex justify-content-end align-items-center flex-wrap w-full">
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -41,6 +41,22 @@
                 </li>
                 <li><a href="https://writethenextsong.com" rel="noopener" target="_blank">Songwriting Blog</a></li>
             </ul>
+
+            <div>
+                <a href="javascript:void(0);" onClick="openMenu()"><img src="./images/icons/list.svg" alt="hamburger-menu" id="mobile-icon" class="d-none"></a>
+                <div id="mobile-menu" class="d-none">
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="https://soundbetter.com/profiles/40906-ramita-arora" rel="noopener" target="_blank">Hire
+                                Ramita</a></li>
+                        <li><a href="https://www.lessonface.com/ramitaarora" rel="noopener" target="_blank">Music Lessons</a>
+                        </li>
+                        <li><a href="https://writethenextsong.com" rel="noopener" target="_blank">Songwriting Blog</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
@@ -79,21 +95,21 @@
                 <div class="each-description">
                     <iframe style="border-radius:12px"
                         src="https://open.spotify.com/embed/track/6kgwUzJV65YWQBvhvlzqtT?utm_source=generator"
-                        width="100%" height="352" frameBorder="0" allowfullscreen=""
+                        width="100%" height="352" frameBorder="0"
                         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                         loading="lazy"></iframe>
                 </div>
                 <div class="each-description">
                     <iframe style="border-radius:12px"
                         src="https://open.spotify.com/embed/track/20JpPOhAarltmfv0dli2hV?utm_source=generator"
-                        width="100%" height="352" frameBorder="0" allowfullscreen=""
+                        width="100%" height="352" frameBorder="0"
                         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                         loading="lazy"></iframe>
                 </div>
                 <div class="each-description">
                     <iframe style="border-radius:12px"
                         src="https://open.spotify.com/embed/track/0AscVMt2YOHciKtr1LavhZ?utm_source=generator"
-                        width="100%" height="352" frameBorder="0" allowfullscreen=""
+                        width="100%" height="352" frameBorder="0"
                         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                         loading="lazy"></iframe>
                 </div>
@@ -101,7 +117,7 @@
         </section>
         <section id="about" class="my-4 d-flex justify-content-center align-items-center">
             <div>
-                <img src="./images/headshot.jpeg" alt="ramita-arora" title="Ramita Arora" height="400">
+                <img src="./images/headshot.jpeg" alt="ramita-arora" title="Ramita Arora" loading="lazy" height="400">
             </div>
             <div class="about-text p-3 d-flex flex-column justify-content-center">
                 <h2>Ramita Arora</h2>
@@ -118,19 +134,19 @@
             <div class="py-4 d-flex flex-wrap justify-content-evenly align-items-center">
                 <div class="each-service">
                     <a href="https://soundbetter.com/profiles/40906-ramita-arora">
-                        <img src="./images/voice.svg" alt="voice" title="voice" height="100">
+                        <img src="./images/voice.svg" alt="voice" title="voice" height="100" loading="lazy">
                         <p>Vocalist & Multi-Instrumentalist</p>
                     </a>
                 </div>
                 <div class="each-service">
                     <a href="https://soundbetter.com/profiles/40906-ramita-arora">
-                        <img src="./images/producer.svg" alt="producer" title="producer" height="100">
+                        <img src="./images/producer.svg" alt="producer" title="producer" height="100" loading="lazy">
                         <p>Songwriter & Producer</p>
                     </a>
                 </div>
                 <div class="each-service">
                     <a href="https://www.lessonface.com/ramitaarora">
-                        <img src="./images/learn.svg" alt="learn" title="learn" height="100">
+                        <img src="./images/learn.svg" alt="learn" title="learn" height="100" loading="lazy">
                         <p>Songwriting & Production Teacher</p>
                     </a>
                 </div>
@@ -163,6 +179,11 @@
             </ul>
         </div>
         <div>
+            <ul class="mobile-footer-nav">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
             <ul class="w-full text-end footer-nav">
                 <li><a href="https://soundbetter.com/profiles/40906-ramita-arora" rel="noopener" target="_blank">Hire
                         Ramita</a></li>
@@ -176,6 +197,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
