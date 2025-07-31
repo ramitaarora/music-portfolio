@@ -1,6 +1,7 @@
 :root {
     --primary: #0f7b76;
     --secondary: #08c3b9;
+    --grey: rgb(245, 245, 245);
 }
 
 a {
@@ -56,6 +57,7 @@ header {
     animation: fadeIn 1s ease-in;
 }
 
+.social-nav li:hover,
 .each-description:hover,
 #services img:hover,
 .each-service li img:hover {
@@ -187,7 +189,7 @@ nav {
 }
 
 #about {
-    background-color: rgb(245, 245, 245);
+    background-color: var(--grey);
 
     .about-text {
         width: 40%;
@@ -198,6 +200,30 @@ nav {
     h3 {
         margin: 30px 0;
     }
+
+    iframe {
+            margin: 10px 0;
+        }
+}
+
+#teaching {
+    background-color: var(--grey);
+
+    .each-teaching-description {
+        width: 80%;
+        margin-left: 20% !important;
+
+        img {
+            margin-right: 5%;
+        }
+
+        p {
+            margin-bottom: 0px !important;
+            margin-left: 20px;
+        }
+    }
+
+
 }
 
 footer {
@@ -227,10 +253,8 @@ footer {
         width: 30% !important;
     }
 
-    #portfolio {
-        iframe {
-            margin: 10px 0;
-        }
+    #teaching .each-teaching-description {
+         margin-left: 0px !important;
     }
 }
 
@@ -351,6 +375,24 @@ footer {
     #contact {
         iframe {
             height: 980px;
+        }
+    }
+
+    #teaching {
+        .each-teaching-description {
+            flex-direction: column;
+
+            img {
+                display: none;
+            }
+
+            .teaching-text {
+                width: 80% !important;
+
+                h3 {
+                    text-align: center;
+                }
+            }
         }
     }
 }
