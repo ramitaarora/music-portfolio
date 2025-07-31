@@ -180,6 +180,12 @@ nav {
     }
 }
 
+#portfolio {
+    h3 {
+        margin: 30px 0;
+    }
+}
+
 footer {
     li {
         list-style-type: none;
@@ -199,6 +205,12 @@ footer {
 
     .each-description {
         width: 30% !important;
+    }
+
+    #portfolio {
+        iframe {
+            margin: 10px 0;
+        }
     }
 }
 
@@ -308,6 +320,12 @@ footer {
         width: 100% !important;
         justify-content: center;
         padding: 30px;
+    }
+
+    #portfolio {
+        iframe {
+            width: 100%;
+        }
     }
 
     #contact {
