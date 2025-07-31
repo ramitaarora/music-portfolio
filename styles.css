@@ -58,7 +58,7 @@ header {
 
 .each-description:hover,
 #services img:hover,
-li img:hover {
+.each-service li img:hover {
     cursor: pointer;
     position: relative;
     top: -5px;
@@ -113,7 +113,12 @@ nav {
 
     a:hover {
         color: var(--secondary) !important;
-        font-weight: bold;
+    }
+
+    img {
+        position: relative !important;
+        top: -1px !important;
+        margin-left: 5px;
     }
 }
 
@@ -202,6 +207,12 @@ footer {
 
     .mobile-footer-nav {
         display: none;
+    }
+
+    img {
+        position: relative !important;
+        top: -1px !important;
+        margin-left: 5px;
     }
 }
 
