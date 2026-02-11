@@ -1,0 +1,7 @@
+                <li><a href="https://soundbetter.com/profiles/40906-ramita-arora" rel="noopener" target="_blank">Hire
+                        Ramita<img src="./images/icons/external-link.svg" alt="open-external-link"></li>
+                <li><a href="https://www.lessonface.com/ramitaarora" rel="noopener" target="_blank">Music Lessons<img
+                            src="./images/icons/external-link.svg" alt="open-external-link"></a>
+                </li>
+                <li><a href="https://writethenextsong.com" rel="noopener" target="_blank">Songwriting Blog<img
+                            src="./images/icons/external-link.svg" alt="open-external-link"></a></li>
