@@ -250,6 +250,10 @@ nav {
     }
 }
 
+#soundbetter-mobile {
+    display: none;
+}
+
 #portfolio {
     h3 {
         margin: 30px 0;
@@ -448,5 +452,13 @@ footer {
                 }
             }
         }
+    }
+
+    #soundbetter-web {
+        display: none;
+    }
+
+    #soundbetter-mobile {
+        display: block;
     }
 }
