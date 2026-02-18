@@ -286,6 +286,7 @@ nav {
         font-family: "Playfair Display", sans-serif;
         margin: 20px;
         background-color: white;
+        color: black;
     }
 
     button:hover {
