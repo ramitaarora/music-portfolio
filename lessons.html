@@ -141,11 +141,28 @@
             </div>
         </div>
     </section>
-    <section id="contact" class="text-center my-4">
-        <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSejoJzFGg1h60CR4LBPbOZzk0xvUGKp8afbYq_O_L166O9CvQ/viewform?embedded=true"
-            width="640" height="600" title="contact form"></iframe>
-    </section>
+            <section id="contact" class="text-center my-4 p-4">
+            <!-- <iframe
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSejoJzFGg1h60CR4LBPbOZzk0xvUGKp8afbYq_O_L166O9CvQ/viewform?embedded=true"
+                        width="640" height="600" title="contact form"></iframe> -->
+            <h2>Contact</h2>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="6c329841-f97b-4e6e-83c9-3eb98a1da35e">
+                <div class="form-line">
+                    <label name="name">Name</label>
+                    <input type="text" name="name" title="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-line">
+                    <label name="email">Email</label>
+                    <input type="email" name="email" title="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-line">
+                    <label name="message">Message</label>
+                    <textarea name="message" title="message" placeholder="Type Message Here..." required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
     </main>
     <footer class="my-4 d-flex justify-content-between align-items-center">
         <div>

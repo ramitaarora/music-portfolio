@@ -25,7 +25,8 @@ h2 {
 }
 
 p,
-a {
+a,
+label {
     font-family: "Playfair Display", sans-serif;
 }
 
@@ -250,6 +251,50 @@ nav {
     }
 }
 
+#contact {
+    background-color: var(--grey);
+    width: 100%;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-line {
+        margin: 10px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    label {
+        margin-right: 10px;
+        width: 65px; 
+    }
+
+    input, textarea {
+            font-family: "Playfair Display", sans-serif;
+            border-radius: 5px;
+            border: 1px solid white;
+            width: 250px;
+    }
+
+    button {
+        padding: 10px 5px;
+        font-family: "Playfair Display", sans-serif;
+        margin: 20px;
+        background-color: white;
+    }
+
+    button:hover {
+        background-color: var(--secondary);
+        color: white;
+    }
+
+}
+
 #soundbetter-mobile {
     display: none;
 }
@@ -265,7 +310,7 @@ nav {
 }
 
 #teaching {
-    background-color: var(--grey);
+    /* background-color: var(--grey); */
 
     .each-teaching-description {
         width: 80%;
